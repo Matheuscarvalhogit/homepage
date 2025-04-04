@@ -303,3 +303,251 @@ body {
     margin-bottom: 5px;
 
 }
+
+.container .experiencia {
+    background-color: rgb(248, 248, 248);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .experiencia .experiencia-topo {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .experiencia .experiencia-topo .experiencia-title {
+    height: 20px;
+    width: 90px;
+    background-color: rgb(230, 229, 229);
+    color: rgb(59, 59, 59);
+    padding: 8px 16px 8px;
+    font-size: 16px;
+    border-radius: 16px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container .experiencia .experiencia-topo p {
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-size: 22px;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+.container .experiencia .experiencia-container {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    max-width: 850px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgb(107, 106, 106);
+    display: flex;
+}
+
+.container .experiencia .experiencia-container div {
+    margin-right: 15px;
+    max-width: 380px;
+}
+
+.container .experiencia .experiencia-container img {
+    margin: 30px 30px 0px 30px;
+
+}
+
+.container .experiencia .experiencia-container h4 {
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 35px;
+
+}
+
+.container .experiencia .experiencia-container p {
+    margin-top: 35px;
+
+}
+
+.container .experiencia .experiencia-container div ul li {
+    line-height: 25px;
+    margin-top: 6px;
+}
+
+
+
+.container .trabalhos {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+}
+
+.container .trabalhos .trabalhos-topo {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .trabalhos .trabalhos-topo .trabalhos-title {
+    height: 20px;
+    width: 90px;
+    background-color: rgb(230, 229, 229);
+    color: rgb(59, 59, 59);
+    padding: 8px 16px 8px;
+    font-size: 16px;
+    border-radius: 16px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container .trabalhos .trabalhos-topo p {
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-size: 22px;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+.container .trabalhos .trabalhos-container {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    max-width: 1250px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgb(107, 106, 106);
+    display: flex;
+}
+
+.container .trabalhos .trabalhos-container .container-esquerdo {
+    background-color:rgb(230, 229, 229) ;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .trabalhos .trabalhos-container .container-direito {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container .trabalhos .trabalhos-container .container-esquerdo div {
+    height: 80%;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.container .trabalhos .trabalhos-container .container-esquerdo div img {
+    width:100%;
+    border-radius: 15px;
+}
+
+.container .trabalhos .trabalhos-container .container-direito .sub-container {
+    height: 80%;
+    width: 80%;
+}
+
+.container .trabalhos .trabalhos-container .container-direito .sub-container .container-direito-topo h4 {
+    margin: 0px;
+    font-size: 23px;
+}
+
+.container .trabalhos .trabalhos-container .container-direito .sub-container .container-direito-topo p {
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+    line-height: 25px;
+}
+
+.container .trabalhos .trabalhos-container .container-direito .sub-container .projeto-techs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .trabalhos .trabalhos-container .container-direito .sub-container .projeto-techs div {
+    background-color: rgb(230, 229, 229);
+    flex-wrap: wrap;
+    color: rgb(59, 59, 59);
+    padding: 8px 16px 8px;
+    font-size: 16px;
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.container .trabalhos .trabalhos-container .container-direito .sub-container img {
+    margin-top: 15px;
+}
+
+
+.container .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+}
+
+.container .contato .contato-topo {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.container .contato .contato-topo p {
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-size: 22px;
+    width: 600px;
+
+}
+
+.container .contato .contato-topo .contato-title {
+    height: 20px;
+    width: 90px;
+    background-color: rgb(230, 229, 229);
+    color: rgb(59, 59, 59);
+    padding: 8px 16px 8px;
+    font-size: 16px;
+    border-radius: 16px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container .contato .contato-body {
+    background-color: aqua;
+    width: 470px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+
+.container .contato .contato-body .email img {
+    margin-top: 18px;
+
+}
