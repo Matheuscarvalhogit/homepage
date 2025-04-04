@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -41,7 +45,6 @@ body {
 .container .menu .botoes nav div a {
     text-decoration: none;
     color: rgb(86, 86, 86);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .container .menu .botoes nav div a:hover {
@@ -95,7 +98,6 @@ body {
     justify-content: space-between;
     text-align:left;
     margin-top: 70px;
-    font-family: Arial, Helvetica, sans-serif
 }
 
 .container .apresentacao .texto {
@@ -201,7 +203,6 @@ body {
     border-radius: 20px;
     margin-top: 100px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif'
 }
 
 .container .biografia .corpo-biografia {
@@ -229,7 +230,6 @@ body {
 
 .container .biografia .texto-biografia {
     width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 47px;
 
 }
@@ -246,7 +246,10 @@ body {
 
 .container .skills {
     height: 600px;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -268,7 +271,6 @@ body {
     border-radius: 14px;
     margin-top: 100px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif'
 }
 
 .container .skills .skills-topo p {
@@ -276,5 +278,28 @@ body {
     color: rgb(59, 59, 59);
     font-size: 22px;
     width: 370px;
+    margin-bottom: 100px;
 }
 
+.container .skills .techs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+}
+
+.container .skills .techs div  {
+    height: 120px;
+    width: 120px;
+    margin: 0px 35px 45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container .skills .techs div img {
+    width: 100%;
+    margin-bottom: 5px;
+
+}
