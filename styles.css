@@ -310,6 +310,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .container .experiencia .experiencia-topo {
@@ -501,7 +502,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 850px;
+    height: 620px;
 }
 
 .container .contato .contato-topo {
@@ -535,9 +536,8 @@ body {
 }
 
 .container .contato .contato-body {
-    background-color: aqua;
-    width: 470px;
-    height: 120px;
+    width: 520px;
+    height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -545,9 +545,58 @@ body {
     font-weight: bold;
 }
 
+.container .contato .contato-body .email {
+    display: flex;
+    margin-bottom: 20px;
+}
 
+.container .contato .contato-body .email span {
+    margin-right: 18px;
+    margin-left: 18px;
+}
 
-.container .contato .contato-body .email img {
-    margin-top: 18px;
+.container .contato .contato-body .telefone  {
+    display: flex;
+}
 
+.container .contato .contato-body .telefone span {
+    margin-right: 22px;
+    margin-left: 22px;
+}
+
+.container .contato .contato-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .contato .contato-final .recado{
+    font-size: 18px;
+    color: rgb(86, 86, 86);
+}
+
+.container .contato .contato-final .redes{
+    width: 150px;
+    height: 30px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .contato .contato-final .redes a img {
+    width: 30px;
+    height: 30px;
+}
+
+.container .contato .contato-final .redes a img :last-child{
+    margin-right:0px;
+
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+    height: 60px;
 }
